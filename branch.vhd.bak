@@ -1,0 +1,26 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity branch is
+	Port (  selbranch : in STD_LOGIC_VECTOR(2 downto 0);
+			  n : in STD_LOGIC;
+			  z : in STD_LOGIC;
+			  v : in STD_LOGIC;
+			  c : in STD_LOGIC;
+			  vf : in STD_LOGIC;
+			  branch  : out STD_LOGIC);
+end branch;
+
+architecture Behavioral of branch is
+begin
+	process (sel, E0, E1, E2)
+	begin		
+		if sel = "00" then 
+			sal <= E0;
+		elsif sel = "01" then 
+			sal <= E1;
+		elsif sel = "10" then 
+			sal <= E2;
+		end if;
+	end process;
+end Behavioral;
