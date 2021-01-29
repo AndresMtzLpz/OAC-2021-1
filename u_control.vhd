@@ -390,6 +390,46 @@ begin
 			selregw <= "000";
 			memw <= '0';
 			seldirw <= "00";
+			
+		elsif (inst = X"0000") then -- NOP
+			selregr <= X"0";
+			sels1 <= '0';
+			sr <= '0';
+			cin <= '0';
+			sels2 <= '0';
+			seldato <= '0';
+			selsrc <= "000";
+			seldir <= "00";
+			selop <= X"0";
+			selresult <= "00";
+			selc <= '0';
+			cadj <= '0';
+			selfalgs <= X"0";
+			selbranch <= "000";
+			vf <= '1';
+			selregw <= "000";
+			memw <= '0';
+			seldirw <= "00";
+			
+		else  -- NOP
+			selregr <= X"0";
+			sels1 <= '0';
+			sr <= '0';
+			cin <= '0';
+			sels2 <= '0';
+			seldato <= '0';
+			selsrc <= "000";
+			seldir <= "00";
+			selop <= X"0";
+			selresult <= "00";
+			selc <= '0';
+			cadj <= '0';
+			selfalgs <= X"0";
+			selbranch <= "000";
+			vf <= '1';
+			selregw <= "000";
+			memw <= '0';
+			seldirw <= "00";
 		end if;
 	end process;
 end Behavioral;

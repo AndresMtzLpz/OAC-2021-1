@@ -3,147 +3,195 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 85C Model Setup 'reg_acoplo_3:inst16|selop[0]'
-Slack : -9.847
-TNS   : -151.297
-
-Type  : Slow 1100mV 85C Model Setup 'reg_acoplo_3:inst16|selfalgs[0]'
-Slack : -6.656
-TNS   : -28.442
+Slack : -9.448
+TNS   : -151.507
 
 Type  : Slow 1100mV 85C Model Setup 'RELOJ'
-Slack : -6.323
-TNS   : -660.884
+Slack : -8.354
+TNS   : -819.027
+
+Type  : Slow 1100mV 85C Model Setup 'reg_acoplo_3:inst16|selfalgs[0]'
+Slack : -6.224
+TNS   : -15.388
+
+Type  : Slow 1100mV 85C Model Setup 'reg_acoplo_3:inst16|selfalgs[1]'
+Slack : -6.121
+TNS   : -17.039
 
 Type  : Slow 1100mV 85C Model Hold 'RELOJ'
-Slack : -2.967
-TNS   : -15.282
+Slack : -2.676
+TNS   : -19.642
 
 Type  : Slow 1100mV 85C Model Hold 'reg_acoplo_3:inst16|selop[0]'
-Slack : 0.085
+Slack : 0.673
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'reg_acoplo_3:inst16|selfalgs[1]'
+Slack : 1.117
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'reg_acoplo_3:inst16|selfalgs[0]'
-Slack : 0.284
+Slack : 1.281
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'RELOJ'
 Slack : -4.555
-TNS   : -390.446
+TNS   : -397.939
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selfalgs[0]'
-Slack : 0.238
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selfalgs[1]'
+Slack : 0.310
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selop[0]'
-Slack : 0.286
+Slack : 0.330
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Setup 'reg_acoplo_3:inst16|selop[0]'
-Slack : -9.990
-TNS   : -155.190
-
-Type  : Slow 1100mV 0C Model Setup 'reg_acoplo_3:inst16|selfalgs[0]'
-Slack : -6.802
-TNS   : -29.255
+Slack : -9.587
+TNS   : -154.800
 
 Type  : Slow 1100mV 0C Model Setup 'RELOJ'
-Slack : -6.565
-TNS   : -647.385
+Slack : -8.476
+TNS   : -805.070
+
+Type  : Slow 1100mV 0C Model Setup 'reg_acoplo_3:inst16|selfalgs[0]'
+Slack : -6.346
+TNS   : -15.661
+
+Type  : Slow 1100mV 0C Model Setup 'reg_acoplo_3:inst16|selfalgs[1]'
+Slack : -6.153
+TNS   : -16.984
 
 Type  : Slow 1100mV 0C Model Hold 'RELOJ'
-Slack : -3.090
-TNS   : -16.146
+Slack : -2.785
+TNS   : -20.836
 
 Type  : Slow 1100mV 0C Model Hold 'reg_acoplo_3:inst16|selop[0]'
-Slack : 0.111
+Slack : 0.744
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'reg_acoplo_3:inst16|selfalgs[1]'
+Slack : 0.909
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'reg_acoplo_3:inst16|selfalgs[0]'
-Slack : 0.360
+Slack : 1.173
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'RELOJ'
 Slack : -4.555
-TNS   : -385.514
+TNS   : -389.681
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selop[0]'
-Slack : 0.215
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selfalgs[1]'
+Slack : 0.255
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selfalgs[0]'
-Slack : 0.219
+Slack : 0.314
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selop[0]'
+Slack : 0.341
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Setup 'reg_acoplo_3:inst16|selop[0]'
-Slack : -3.917
-TNS   : -58.887
+Slack : -3.708
+TNS   : -59.501
 
 Type  : Fast 1100mV 85C Model Setup 'RELOJ'
-Slack : -2.912
-TNS   : -227.721
+Slack : -3.024
+TNS   : -251.797
 
 Type  : Fast 1100mV 85C Model Setup 'reg_acoplo_3:inst16|selfalgs[0]'
-Slack : -2.427
-TNS   : -9.443
+Slack : -2.330
+TNS   : -4.675
+
+Type  : Fast 1100mV 85C Model Setup 'reg_acoplo_3:inst16|selfalgs[1]'
+Slack : -2.281
+TNS   : -4.537
 
 Type  : Fast 1100mV 85C Model Hold 'RELOJ'
-Slack : -1.253
-TNS   : -5.233
+Slack : -0.891
+TNS   : -5.677
+
+Type  : Fast 1100mV 85C Model Hold 'reg_acoplo_3:inst16|selfalgs[1]'
+Slack : 0.350
+TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'reg_acoplo_3:inst16|selop[0]'
-Slack : 0.007
+Slack : 0.361
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'reg_acoplo_3:inst16|selfalgs[0]'
-Slack : 0.009
+Slack : 0.419
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'RELOJ'
 Slack : -2.636
-TNS   : -128.102
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selop[0]'
-Slack : 0.333
-TNS   : 0.000
+TNS   : -123.144
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selfalgs[0]'
-Slack : 0.354
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selfalgs[1]'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selop[0]'
+Slack : 0.405
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Setup 'reg_acoplo_3:inst16|selop[0]'
-Slack : -3.614
-TNS   : -55.031
+Slack : -3.440
+TNS   : -55.428
 
 Type  : Fast 1100mV 0C Model Setup 'RELOJ'
-Slack : -2.752
-TNS   : -197.006
+Slack : -2.639
+TNS   : -212.265
 
 Type  : Fast 1100mV 0C Model Setup 'reg_acoplo_3:inst16|selfalgs[0]'
-Slack : -2.324
-TNS   : -8.722
+Slack : -2.193
+TNS   : -4.131
+
+Type  : Fast 1100mV 0C Model Setup 'reg_acoplo_3:inst16|selfalgs[1]'
+Slack : -2.133
+TNS   : -3.817
 
 Type  : Fast 1100mV 0C Model Hold 'RELOJ'
-Slack : -1.258
-TNS   : -5.276
+Slack : -0.874
+TNS   : -5.727
 
-Type  : Fast 1100mV 0C Model Hold 'reg_acoplo_3:inst16|selfalgs[0]'
-Slack : 0.033
+Type  : Fast 1100mV 0C Model Hold 'reg_acoplo_3:inst16|selfalgs[1]'
+Slack : 0.330
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'reg_acoplo_3:inst16|selop[0]'
-Slack : 0.049
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'reg_acoplo_3:inst16|selfalgs[0]'
+Slack : 0.410
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'RELOJ'
 Slack : -2.636
-TNS   : -129.410
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selop[0]'
-Slack : 0.344
-TNS   : 0.000
+TNS   : -124.672
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selfalgs[0]'
-Slack : 0.368
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selfalgs[1]'
+Slack : 0.374
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'reg_acoplo_3:inst16|selop[0]'
+Slack : 0.410
 TNS   : 0.000
 
 ------------------------------------------------------------
