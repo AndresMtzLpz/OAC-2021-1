@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
 
--- DATE "01/29/2021 03:30:54"
+-- DATE "01/29/2021 03:41:31"
 
 -- 
 -- Device: Altera 5CGXFC7C7F23C8 Package FBGA484

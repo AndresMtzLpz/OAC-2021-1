@@ -19,10 +19,12 @@ architecture Behavioral of memoria_inst is
 		--Código Ejemplo
 --		memoria(0) <= x"00A50002"; --	LDAB	#$0001	(B <- 1)
 --		memoria(1) <= x"00860000"; --	LDAA	#$0000	(A <- 0)
---		memoria(2) <= x"001B0000"; --	ABA			(A <- A + B)
---		memoria(3) <= x"007E0002"; --	JMP
---		memoria(4) <= x"00010000"; --	NOP				(Nops de salto)
---		memoria(5) <= x"00010000"; --	NOP
+--		memoria(2) <= x"00010000"; --	NOP				(Nops de salto)
+--		memoria(3) <= x"00010000"; --	NOP
+--		memoria(4) <= x"001B0000"; --	ABA			(A <- A + B)
+--		memoria(5) <= x"007E0002"; --	JMP
+--		memoria(6) <= x"00010000"; --	NOP				(Nops de salto)
+--		memoria(7) <= x"00010000"; --	NOP
 		
 		--Código - Suma de numeros naturales 1 hasta n
 		
